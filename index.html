@@ -11,23 +11,73 @@
       href="https://fonts.googleapis.com/css2?family=Festive&family=Montserrat:wght@100;300&family=Quintessential&family=Roboto:wght@100&family=Rowdies:wght@300&display=swap"
       rel="stylesheet"
     />
+    <!-- Link to css file for the swipper -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+    <!-- link to scrip for swipper  -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
     <title>Home</title>
   </head>
   <body>
     <nav class="nav"><p>Nav Bar</p></nav>
+
     <div><p>Intro</p></div>
+
     <div class="gallery">
       <div class="title-section">
         <h1>Our dogs</h1>
       </div>
-
-      <div class="image-container">
-        <img
-          alt="alfie-dog"
-          src="/Users/sandra/Documents/Dev 1/CFG Web Dev/Group project/src/Alfie.jpg"
-        />
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img
+              alt="alfie-dog"
+              src="/Users/sandra/Documents/Dev 1/CFG Web Dev/Group project/src/Alfie.jpg"
+            />
+          </div>
+          <div class="swiper-slide">
+            <img
+              alt="delilah-dog"
+              src="/Users/sandra/Documents/Dev 1/CFG Web Dev/Group project/src/Delilah.jpg"
+            />
+          </div>
+          <div class="swiper-slide">
+            <img
+              alt="lola-dog"
+              src="/Users/sandra/Documents/Dev 1/CFG Web Dev/Group project/src/Lola.jpg"
+            />
+          </div>
+          <div class="swiper-slide">
+            <img
+              alt="flash-dog"
+              src="/Users/sandra/Documents/Dev 1/CFG Web Dev/Group project/src/Flash.jpg"
+            />
+          </div>
+          <div class="swiper-slide">
+            <img
+              alt="Hammy-dog"
+              src="/Users/sandra/Documents/Dev 1/CFG Web Dev/Group project/src/Hammy.jpg"
+            />
+          </div>
+          <div class="swiper-slide">
+            <img
+              alt="Sky-dog"
+              src="/Users/sandra/Documents/Dev 1/CFG Web Dev/Group project/src/Sky.jpg"
+            />
+          </div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination"></div>
       </div>
     </div>
+
+    <!-- Initialize Swiper (this must be in the body) -->
+    <script src="/Users/sandra/Documents/Dev 1/CFG Web Dev/Group project/index.js"></script>
+
     <div class="quiz">Quiz</div>
     <div>Map</div>
     <div>Stories gallery</div>
