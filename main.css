@@ -21,6 +21,15 @@ body {
   background-color: #51a3a3;
 }
 
+.map {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #f3dfa2;
+  position: relative;
+  padding: 10px;
+}
+
 .image-container {
   display: flex;
   justify-content: center;
