@@ -12,10 +12,7 @@
       rel="stylesheet"
     />
     <!-- Link to css file for the swipper -->
-    <link
-      rel="stylesheet"
-      href="https://unpkg.com/swiper/swiper-bundle.min.css"
-    />
+    <link rel="stylesheet" href="swiper-bundle.min.css" />
     <!-- link to scrip for swipper  -->
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 
@@ -57,9 +54,6 @@
       </div>
     </div>
 
-    <!-- Initialize Swiper (this must be in the body) -->
-    <script src="index.js"></script>
-
     <div class="quiz">Quiz</div>
 
     <div class="map">
@@ -67,15 +61,21 @@
         <h1>Where to find us</h1>
       </div>
 
-      <iframe
-        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2236.293097676488!2d-3.1783372!3d55.9096181!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4887b94c9f9bc181%3A0x267ba6e4cbd94425!2sRehoming%20Retired%20Greyhounds%20Edinburgh!5e0!3m2!1sen!2suk!4v1646588713411!5m2!1sen!2suk"
-        width="900"
-        height="100"
-        style="border: 0"
-        allowfullscreen=""
-        loading="lazy"
-      ></iframe>
+      <div class="iframe-maps">
+        <iframe
+          id="frame"
+          src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2236.293097676488!2d-3.1783372!3d55.9096181!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4887b94c9f9bc181%3A0x267ba6e4cbd94425!2sRehoming%20Retired%20Greyhounds%20Edinburgh!5e0!3m2!1sen!2suk!4v1646588713411!5m2!1sen!2suk"
+          width="100%"
+          height="400"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+        ></iframe>
+      </div>
     </div>
     <div>Stories gallery</div>
+
+    <!-- Initialize Swiper (this must be in the body) -->
+    <script src="index.js"></script>
   </body>
 </html>

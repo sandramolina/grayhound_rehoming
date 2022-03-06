@@ -74,12 +74,16 @@ body {
 }
 
 .swiper-button-next {
-  color: white;
-  opacity: 0.4;
-  filter: alpha(opacity=90);
+  opacity: 50%;
+  filter: alpha(opacity=1000);
 }
 
-.swiper-button-next {
-  opacity: 0.4;
-  filter: alpha(opacity=90);
+.swiper-button-prev {
+  opacity: 50%;
+  filter: alpha(opacity=1000);
+}
+
+.iframe-maps {
+  width: 100%;
+  color: #4e3c3f;
 }
