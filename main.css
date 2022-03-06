@@ -72,3 +72,14 @@ body {
   height: 100%;
   object-fit: cover;
 }
+
+.swiper-button-next {
+  color: white;
+  opacity: 0.4;
+  filter: alpha(opacity=90);
+}
+
+.swiper-button-next {
+  opacity: 0.4;
+  filter: alpha(opacity=90);
+}
