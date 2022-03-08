@@ -41,12 +41,50 @@ body {
   padding: 50px;
 }
 
-.nav {
+.navbar {
   background-color: #fcb0b3;
+  overflow: hidden;
+}
+
+.navbar a {
+  float: left;
+  color: #4e3c3f;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background-color: #ddd;
+  color: #4e3c3f;
+}
+
+.navbuttons {
+  float: left;
+  background-color: #fcb0b3;
+}
+
+.search {
+  float: right;
+  color: #4e3c3f;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
 }
 
 .quiz {
   background-color: #51a3a3;
+  text-align: center;
+  border: #4e3c3f;
+  padding: 170px;
+}
+
+.quiz a {
+  text-decoration: none;
+  font-size: 25px;
+  color: #4e3c3f;
 }
 
 .map {
@@ -114,4 +152,26 @@ body {
 .iframe-maps {
   width: 100%;
   color: #4e3c3f;
+}
+
+.footer {
+  background-color: #fcb0b3;
+  overflow: hidden;
+}
+
+.charityReg {
+  text-align: center;
+}
+
+.footerlinks {
+  align-items: flex;
+  text-align: center;
+  padding: 14px 16px;
+}
+
+.footerlinks a {
+  text-decoration: none;
+  font-size: 17px;
+  color: #4e3c3f;
+  padding: 14px 16px;
 }
