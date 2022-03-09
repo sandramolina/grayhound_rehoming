@@ -18,15 +18,14 @@ body {
 }
 
 .intro-text {
-  width: 450px;
+  width: 400px;
   height: 130px;
   padding-top: 30px;
-  padding-bottom: 20px;
-  padding-left: 0px;
-  padding-right: 0px;
+  padding-bottom: 30px;
+  padding-left: 15px;
+  padding-right: 15px;
   box-sizing: border-box;
   font-size: 30px;
-  font-family: Montserrat;
   font-weight: bold;
   color: #54494b;
   text-align: center;
