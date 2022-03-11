@@ -25,16 +25,130 @@ body {
   background-attachment: scroll;
 }
 
+.intro-text {
+  width: 400px;
+  height: 130px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 15px;
+  padding-right: 15px;
+  box-sizing: border-box;
+  font-size: 30px;
+  text-align: center;
+  position: absolute;
+  margin-left: 20px;
+  margin-top: 5px;
+}
+
 .gallery {
   background-color: #f3dfa2;
 }
 
-.nav {
+.navbar {
   background-color: #fcb0b3;
+  overflow: hidden;
+}
+
+.navbar a {
+  float: left;
+  color: #4e3c3f;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background-color: #ddd;
+  color: #4e3c3f;
+}
+
+.navbuttons {
+  float: left;
+  background-color: #fcb0b3;
+}
+
+.intro {
+  background-image: url("src/introPhotoresized.jpeg");
+  background-size: cover;
+  max-width: 100%;
+  height: 450px;
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-attachment: scroll;
+}
+
+.intro-text {
+  width: 400px;
+  height: 130px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 15px;
+  padding-right: 15px;
+  box-sizing: border-box;
+  font-size: 30px;
+  text-align: center;
+  position: absolute;
+  margin-left: 20px;
+  margin-top: 5px;
+}
+
+.gallery {
+  background-color: #f3dfa2;
+  position: relative;
+  padding: 50px;
+}
+
+.navbar {
+  background-color: #fcb0b3;
+  overflow: hidden;
+}
+
+.navbar a {
+  float: left;
+  color: #4e3c3f;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background-color: #ddd;
+  color: #4e3c3f;
+}
+
+.navbuttons {
+  float: left;
+  background-color: #fcb0b3;
+}
+
+.search {
+  float: right;
+  color: #4e3c3f;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
 }
 
 .quiz {
   background-color: #51a3a3;
+  text-align: center;
+  border: #4e3c3f;
+  padding: 170px;
+}
+
+.quiz a {
+  text-decoration: none;
+  font-size: 25px;
+  color: #4e3c3f;
+}
+
+.quiz a {
+  text-decoration: none;
+  font-size: 25px;
+  color: #4e3c3f;
 }
 
 .map {
@@ -104,4 +218,122 @@ body {
 .iframe-maps {
   width: 100%;
   color: #4e3c3f;
+}
+
+.footer {
+  background-color: #fcb0b3;
+  overflow: hidden;
+}
+
+.charityReg {
+  text-align: center;
+}
+
+.footerlinks {
+  align-items: flex;
+  text-align: center;
+  padding: 14px 16px;
+}
+
+.title-section {
+  display: flex;
+  justify-content: center;
+}
+
+/* Swipper CSS code */
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.swiper-button-next {
+  opacity: 50%;
+  filter: alpha(opacity=1000);
+}
+
+.swiper-button-prev {
+  opacity: 50%;
+  filter: alpha(opacity=1000);
+}
+
+.iframe-maps {
+  width: 100%;
+  color: #4e3c3f;
+}
+
+.footer {
+  background-color: #fcb0b3;
+  overflow: hidden;
+}
+
+.charityReg {
+  text-align: center;
+}
+
+.footerlinks {
+  align-items: flex;
+  text-align: center;
+  padding: 14px 16px;
+}
+
+.footerlinks a {
+  text-decoration: none;
+  font-size: 17px;
+  color: #4e3c3f;
+  padding: 14px 16px;
+}
+
+.stories-gallery {
+  display: flex;
+  justify-content: center;
+  background-color: #51a3a3;
+}
+
+.swiper-slide-stories img {
+  width: 400px;
+  float: left;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.swiper-slide-stories {
+  background-color: #51a3a3;
+  justify-content: center;
+  float: right;
+  font-size: 10px;
+}
+
+.swiper-slide-stories p {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px;
 }

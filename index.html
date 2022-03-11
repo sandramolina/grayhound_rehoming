@@ -23,6 +23,7 @@
     <title>Home</title>
   </head>
   <body>
+    <!-- Navbar for mobile -->
     <nav class="navbar navbar-light" style="background-color: #fcb0b3">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">Menu</a>
@@ -44,6 +45,23 @@
           </div>
         </div>
       </div>
+  <!-- nav bar for Desktop -->  
+    <nav class="navbar">
+        
+
+            <div class="navbuttons">
+                <a href="https://www.bbc.co.uk/">About Us</a>
+                <a href="https://www.bbc.co.uk/">Gallery</a>
+                <a href="https://www.bbc.co.uk/">Quiz</a>
+                <a href="https://www.bbc.co.uk/">Donate Now</a>
+            </div>
+
+            <div class="search">
+                <input type="search" name="search" placeholder="Search">
+                <input type="submit" value="Search">
+            </div>
+
+        
     </nav>
 
     <div>
@@ -111,7 +129,11 @@
       </div>
     </div>
 
-    <div class="quiz">Quiz</div>
+    <div class="quiz">
+    
+    <a href="#quizlink">Take Our Matchmaking Quiz!</a>
+    
+    </div>
 
     <div class="map">
       <div class="title-section">
@@ -130,13 +152,54 @@
         ></iframe>
       </div>
     </div>
-    <div>Stories gallery</div>
+
+  <div class="stories-gallery">
+     <h1>Meet some of our happily rehomed greyhounds!</h1>
+    </div>
+    <div class="swiper mySwiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide-stories">
+          <img alt="maisie-dog" src="src/Maisie.jpg" />
+          <p>"We have had Maisie for one month now, and we are so happy to have made the decision to adopt her. Most of the time she is a gentle soul, but she gets very excited around food, and loves a treat. We can tell she is growing more and more confident every day, and we are so proud of her." </p>
+        </div>
+        <div class="swiper-slide-stories">
+          <img alt="evie-dog" src="src/Evie.jpg" />
+          <p>"She is often very cheeky and makes us laugh daily and loves being cuddled and giving the best cuddles back. She adores my grandsons. They have an extremely beautiful bond and she enjoys the school run. Best ever decision I made to adopt this gorgeous girl and bring her home. She is just a joy to have around and love her to bits."</p>
+        </div>
+        <div class="swiper-slide-stories">
+          <img alt="jimmy-dog" src="src/Jimmy.jpg" />
+          <p>"Jimmy adopted us 9 months ago and I can't imagine our life without him. He settled really well adjusted to retirement like a pro. In the first week he came home, he stole some steak that I had left on the kitchen counter to cool. So now whenever it's steak for tea there's always a wee extra bit for Jim. Greyhounds make such fantastic pets they are gentle, lovable and a just wee bit cheeky sometimes!"</p>
+        </div>
+        <div class="swiper-slide-stories">
+          <img alt="cassie-dog" src="src/Cassie.jpg" />
+          <p>"She's doing really well and settling in to her new life with us. She is gradually growing in confidence and with that we are starting to see her personality come through. She loves walks and is handling traffic, journeys in the car and other dogs exceptionally well. She's incredibly calm and easy going. She really is all we hoped she would be."</p>
+        </div>
+      </div>
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-pagination"></div>
+    </div>
+  </div>
 
     <!-- Initialize Swiper (this must be in the body) -->
     <script src="index.js"></script>
+  
+  <footer class="footer">
 
-    <!-- bootstrap js files -->
-    <script
+    <div class="footerlinks">
+      <a href="https://www.bbc.co.uk/">Contact Us</a>
+      <a href="https://www.bbc.co.uk/">Social Media</a>
+      <a href="https://www.bbc.co.uk/">FAQs</a>
+    </div>
+
+    <div class="charityReg">
+      <p>Greyhound Rehoming Centre Registered Charity number XXXX </p>
+    </div>
+  
+  </footer>
+
+      <!-- bootstrap js files -->
+      <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
       integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
       crossorigin="anonymous"
@@ -146,5 +209,6 @@
       integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
       crossorigin="anonymous"
     ></script>
+
   </body>
 </html>
