@@ -96,7 +96,7 @@ body {
 .gallery {
   background-color: #f3dfa2;
   position: relative;
-  padding: 50px;
+  /* padding: 50px; */
 }
 
 .navbar {
