@@ -1,17 +1,25 @@
 body {
-  color: #54494b;
+  color: #54494b !important;
+
   font-family: "Festive", cursive;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Montserrat", sans-serif !important;
   font-family: "Quintessential", cursive;
   font-family: "Roboto", sans-serif;
   font-family: "Rowdies", cursive;
 }
 
+/* .container_intro {
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  text-align: center;
+} */
+
 .intro {
   background-image: url("src/introPhotoresized.jpeg");
   background-size: cover;
   max-width: 100%;
-  height: 450px;
+  height: 159px;
   background-repeat: no-repeat;
   background-position: top center;
   background-attachment: scroll;
@@ -34,8 +42,6 @@ body {
 
 .gallery {
   background-color: #f3dfa2;
-  position: relative;
-  padding: 50px;
 }
 
 .navbar {
@@ -90,7 +96,7 @@ body {
 .gallery {
   background-color: #f3dfa2;
   position: relative;
-  padding: 50px;
+  /* padding: 50px; */
 }
 
 .navbar {
@@ -162,6 +168,8 @@ body {
 .title-section {
   display: flex;
   justify-content: center;
+  font-weight: bold;
+  font-size: 0.5rem !important;
 }
 
 /* Swipper CSS code */
