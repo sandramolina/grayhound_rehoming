@@ -28,10 +28,6 @@ body {
   margin-top: 5px;
 }
 
-.gallery {
-  background-color: #f3dfa2;
-}
-
 .navbar {
   background-color: #fcb0b3;
   overflow: hidden;
@@ -84,7 +80,7 @@ body {
 .gallery {
   background-color: #f3dfa2;
   position: relative;
-  /* padding: 50px; */
+  padding-bottom: 5px;
 }
 
 .navbar {
