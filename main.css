@@ -182,11 +182,6 @@ body {
   padding: 14px 16px;
 }
 
-.title-section {
-  display: flex;
-  justify-content: center;
-}
-
 .iframe-maps {
   width: 100%;
   color: #4e3c3f;
