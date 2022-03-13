@@ -1,8 +1,14 @@
 // This function will save the user answers to the 4 questions into an array
+let input;
+let answersList = [];
 function answerInput(id) {
-  let input = document.getElementById(id).value;
-  console.log(input);
+  input = document.getElementById(id).value;
+  answersList.push(input);
+  console.log(input, answersList);
 }
+
+// example of answerList to try the if statement
+answersList = [true, true, false, true];
 
 // this is the array that contains each of the dogs objects: children friendly, social dog, aged dog, female. Each boolean will tell if the dog meets these criteria
 let doggies = [
