@@ -4,9 +4,77 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Quiz page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Festive&family=Montserrat:wght@100;300;500&family=Nunito:wght@300&family=Quintessential&family=Roboto:wght@100&family=Rowdies:wght@300&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="main.css" />
     <link rel="stylesheet" href="quiz.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <title>Quiz page</title>
   </head>
-  <body></body>
+  <body>
+    <div class="container">
+      <div class="col">
+        <div class="row">navbar</div>
+        <div class="row">Find your perfect match</div>
+
+        <div class="row">
+          <div class="col">
+            <div class="card text-center question">
+              <div class="card-body">
+                <p class="card-text">Question one</p>
+                <ul class="list-group list-group-flush gap-3">
+                  <input
+                    class="btn btn-light"
+                    type="button"
+                    value="Option 1"
+                    id="optionOne"
+                    onclick="answerInput('optionOne')"
+                  />
+                  <input
+                    class="btn btn-light"
+                    type="button"
+                    value="Option 2"
+                    id="optionTwo"
+                    onclick="answerInput('optionTwo')"
+                  />
+                  <input
+                    class="btn btn-light"
+                    type="button"
+                    value="Option 3"
+                    id="optionThree"
+                    onclick="answerInput('optionThree')"
+                  />
+                </ul>
+              </div>
+              <div class="card-footer text-muted">Question 1 of 6</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">Blank space below question box</div>
+        <div class="row">Footer</div>
+      </div>
+    </div>
+    <script src="quiz.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+      integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+      integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>

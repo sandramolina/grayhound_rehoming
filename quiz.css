@@ -1,0 +1,14 @@
+body {
+  background-color: #f3dfa2 !important;
+  color: #54494b !important;
+  font-family: "Montserrat", sans-serif !important;
+}
+
+.question {
+  background-color: #51a3a3 !important;
+  color: white !important;
+}
+
+.btn-padding {
+  padding: 150px !important;
+}
