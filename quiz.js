@@ -47,5 +47,7 @@ let doggies = [
 for (let i = 0; i < doggies.length; i++) {
   if (_.isEqual(answersList, doggies[i].answerTag)) {
     console.log(doggies[i].dog, i);
+  } else {
+    console.log("not match found");
   }
 }
