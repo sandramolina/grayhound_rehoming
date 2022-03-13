@@ -8,7 +8,7 @@ function answerInput(id) {
 }
 
 // example of answerList to try the if statement
-answersList = [true, true, false, true];
+// answersList = [true, true, false, true];
 
 // this is the array that contains each of the dogs objects: children friendly, social dog, aged dog, female. Each boolean will tell if the dog meets these criteria
 let doggies = [
@@ -37,5 +37,5 @@ let doggies = [
     answerTag: [true, true, false, false],
   },
 ];
-console.log(doggies[0].answerTag[2]); //false
-console.log(doggies[2]);
+// console.log(doggies[0].answerTag[2]); //false
+// console.log(doggies[2]);

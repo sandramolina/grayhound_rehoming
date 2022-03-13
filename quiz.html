@@ -32,21 +32,21 @@
             <div class="card text-center question">
               <div class="card-body">
                 <p class="card-text">Do you live with small hoomans?</p>
-                <ul class="list-group list-group-flush gap-3">
+                <ul class="list-group list-group-flush">
                   <input
-                    class="btn btn-light"
-                    type="button"
-                    value="Yes, there're children under 16"
+                    type="radio"
+                    value= true
                     id="optionOne"
                     onclick="answerInput('optionOne')"
                   />
+                  <label for="optionOne">Yes, there're children under 16</label>
                   <input
-                    class="btn btn-light"
-                    type="button"
-                    value="Nope, adult(s) only"
-                    id="optionTwo"
-                    onclick="answerInput('optionTwo')"
-                  />
+                  type="radio"
+                  value= false
+                  id="optionTwo"
+                  onclick="answerInput('optionTwo')"
+                />
+                <label for="optionTwo">Nope, adult(s) only</label>
               </div>
               <div class="card-footer text-muted">Question 1 of 4</div>
             </div>
