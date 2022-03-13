@@ -1,5 +1,3 @@
-// import _ from "lodash";
-
 // This function will save the user answers to the 4 questions into an array
 let input;
 let answersList = [];
@@ -11,7 +9,6 @@ function answerInput(id) {
     input = false;
   }
   answersList.push(input);
-  // console.log(input, answersList);
 }
 
 // example of answerList to try the if statement
@@ -52,7 +49,3 @@ for (let i = 0; i < doggies.length; i++) {
     console.log(doggies[i].dog, i);
   }
 }
-// var object = [true, true, false, true];
-// var other = [true, true, false, true];
-
-// console.log(_.isEqual(object, other));
