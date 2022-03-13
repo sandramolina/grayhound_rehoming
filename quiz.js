@@ -1,14 +1,21 @@
+// import _ from "lodash";
+
 // This function will save the user answers to the 4 questions into an array
 let input;
 let answersList = [];
 function answerInput(id) {
   input = document.getElementById(id).value;
+  if (input == "true") {
+    input = true;
+  } else if (input == "false") {
+    input = false;
+  }
   answersList.push(input);
-  console.log(input, answersList);
+  // console.log(input, answersList);
 }
 
 // example of answerList to try the if statement
-// answersList = [true, true, false, true];
+answersList = [true, true, false, true];
 
 // this is the array that contains each of the dogs objects: children friendly, social dog, aged dog, female. Each boolean will tell if the dog meets these criteria
 let doggies = [
@@ -39,3 +46,13 @@ let doggies = [
 ];
 // console.log(doggies[0].answerTag[2]); //false
 // console.log(doggies[2]);
+
+for (let i = 0; i < doggies.length; i++) {
+  if (_.isEqual(answersList, doggies[i].answerTag)) {
+    console.log(doggies[i].dog, i);
+  }
+}
+// var object = [true, true, false, true];
+// var other = [true, true, false, true];
+
+// console.log(_.isEqual(object, other));
