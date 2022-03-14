@@ -1,5 +1,5 @@
 body {
-  color: #54494b !important;
+  color: #54494b;
   font-family: "Montserrat", sans-serif !important;
 }
 
@@ -75,37 +75,8 @@ body {
   padding: 10px;
 }
 
-.navbar {
-  background-color: #fcb0b3;
-  overflow: hidden;
-}
-
-.navbar a {
-  float: left;
-  color: #4e3c3f;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-}
-
-.navbar a:hover {
-  background-color: #ddd;
-  color: #4e3c3f;
-}
-
-.navbuttons {
-  float: left;
-  background-color: #fcb0b3;
-}
-
-.search {
-  float: right;
-  color: #4e3c3f;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
+.navbar-light {
+  background-color:#fcb0b3;
 }
 
 .stories-gallery {
@@ -124,14 +95,15 @@ body {
 }
 
 .quiz {
-  background-color: #51a3a3;
+  background-color: #fcb0b3;
   text-align: center;
-  border: #4e3c3f;
-  padding: 170px;
+  padding: 20px;
+  border:#54494b 5px solid;
+  margin: 20px;
+  font-size: 21px;
 }
 
 .quiz a {
   text-decoration: none;
-  font-size: 25px;
   color: #4e3c3f;
 }
