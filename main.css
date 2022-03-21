@@ -114,12 +114,14 @@ body {
 }
 
 .quiz {
-  background-color: #fcb0b3;
+  background-image: url("src/quiz_background.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
   text-align: center;
-  padding: 20px;
-  border: #54494b 5px solid;
-  margin: 20px;
-  font-size: 21px;
+  padding: 60px;
+  font-size: 26px;
+  font-weight:bold;
 }
 
 .quiz a {
