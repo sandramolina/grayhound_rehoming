@@ -42,7 +42,11 @@ body {
 .gallery {
   background-color: #f3dfa2;
   position: relative;
+  text-align: center;
+  padding-top: 5px;
   padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .iframe-maps {
