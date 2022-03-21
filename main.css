@@ -3,6 +3,19 @@ body {
   font-family: "Montserrat", sans-serif !important;
 }
 
+.card-body {
+  background-color: #51a3a3;
+  height: 300px;
+}
+
+.card-text {
+  color: #54494b;
+}
+
+.card-title {
+  color: #54494b;
+}
+
 .charityReg {
   text-align: center;
 }
