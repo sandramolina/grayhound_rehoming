@@ -1,14 +1,19 @@
 // This function will save the user answers to the 4 questions into an array
+
+// try separating this function into two less complex
+
 let input;
 let answersList = [];
 function answerInput(id) {
-  input = document.getElementById(id).value;
-  if (input == "true") {
-    input = true;
-  } else if (input == "false") {
-    input = false;
+  while (answersList.length < 4) {
+    input = document.getElementById(id).value;
+    if (input == "true") {
+      input = true;
+    } else if (input == "false") {
+      input = false;
+    }
+    answersList.push(input);
   }
-  answersList.push(input);
   getDoggie(answersList);
 }
 
