@@ -10,7 +10,7 @@ body {
 
 .card-text {
   color: #54494b;
-  font-size: 15px;
+  font-size: 4vw;
 }
 
 .card-title {
@@ -131,8 +131,4 @@ body {
 
 @media (min-width: 1025px) {
   /* big landscape tablets, laptops, and desktops */
-
-  body {
-    color: red !important;
-  }
 }
