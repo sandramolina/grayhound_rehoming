@@ -4,6 +4,10 @@ body {
   font-family: "Montserrat", sans-serif !important;
 }
 
+/* .hide-element {
+  display: none;
+} */
+
 .padding-bottom {
   padding-bottom: 3vw;
 }
