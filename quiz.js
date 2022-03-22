@@ -9,7 +9,7 @@ function answerInput(id) {
     input = false;
   }
   answersList.push(input);
-  console.log(answersList);
+  getDoggie(answersList);
 }
 
 // example of answerList to try the if statement
@@ -34,21 +34,23 @@ let doggies = [
     answerTag: [false, true, false, false],
   },
   {
-    dog: "TBD1",
+    dog: "Hammy",
     answerTag: [true, false, true, true],
   },
   {
-    dog: "TBD2",
+    dog: "Flash",
     answerTag: [true, true, false, false],
   },
 ];
 // console.log(doggies[0].answerTag[2]); //false
 // console.log(doggies[2]);
 
-// for (let i = 0; i < doggies.length; i++) {
-//   if (_.isEqual(answersList, doggies[i].answerTag)) {
-//     console.log(doggies[i].dog, i);
-//   } else {
-//     console.log("not match found");
-//   }
-// }
+function getDoggie(arr) {
+  for (let i = 0; i < doggies.length; i++) {
+    if (_.isEqual(arr, doggies[i].answerTag)) {
+      console.log(doggies[i].dog, i);
+    } else {
+      console.log("not match found");
+    }
+  }
+}
