@@ -22,67 +22,67 @@
     <title>Quiz page</title>
   </head>
   <body>
-    <div class="container">
-      <div class="col">
-        <div class="row">
-          <nav class="navbar navbar-light">
-            <div class="container-fluid">
-              <a class="navbar-brand" href="#">Menu</a>
-              <button
-                class="navbar-toggler"
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#navbarNavAltMarkup"
-                aria-controls="navbarNavAltMarkup"
-                aria-expanded="false"
-                aria-label="Toggle navigation"
-              >
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav">
-                  <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-                  <a class="nav-link" href="#">About Us</a>
-                  <a class="nav-link" href="#">Gallery</a>
-                  <a class="nav-link" href="quiz.html">Dog Matchmaking Quiz</a>
-                  <a class="nav-link" href="#">Make a Donation</a>
-                </div>
-              </div>
-            </div>
-          </nav>
-        </div>
-        <div class="row">Find your perfect match</div>
-
-        <div class="row">
-          <div class="col">
-            <div class="card text-center question">
-              <div class="card-body">
-                <p class="card-text">Do you live with small hoomans?</p>
-                <ul class="list-group list-group-flush">
-                  <input
-                    type="radio"
-                    value= true
-                    id="optionOne"
-                    onclick="answerInput('optionOne')"
-                  />
-                  <label for="optionOne">Yes, there're children under 16</label>
-                  <input
-                  type="radio"
-                  value= false
-                  id="optionTwo"
-                  onclick="answerInput('optionTwo')"
-                />
-                <label for="optionTwo">Nope, adult(s) only</label>
-              </div>
-              <div class="card-footer text-muted">Question 1 of 4</div>
+    <div class="row">
+      <nav class="navbar navbar-expand-lg navbar-light navbar-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Menu</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              <a class="nav-link" href="#">About Us</a>
+              <a class="nav-link" href="#">Gallery</a>
+              <a class="nav-link" href="quiz.html">Dog Matchmaking Quiz</a>
+              <a class="nav-link" href="#">Make a Donation</a>
             </div>
           </div>
         </div>
+      </nav>
+    </div>
 
-        <div class="row">Blank space below question box</div>
+    <div class="container">
+    <div class="row">Find your perfect match</div>
 
+    <div class="row">
+      <div class="col">
+        <div class="card text-center question">
+          <div class="card-body">
+            <p class="card-text">Do you live with small hoomans?</p>
+            <ul class="list-group list-group-flush">
+              <input
+                type="radio"
+                value= true
+                id="optionOne"
+                onclick="answerInput('optionOne')"
+              />
+              <label for="optionOne">Yes, there're children under 16</label>
+              <input
+              type="radio"
+              value= false
+              id="optionTwo"
+              onclick="answerInput('optionTwo')"
+            />
+            <label for="optionTwo">Nope, adult(s) only</label>
+          </div>
+          <div class="card-footer text-muted">Question 1 of 4</div>
+        </div>
       </div>
     </div>
+
+    <div class="row">Blank space below question box</div>
+
+  </div>
+
     <div class="row">
       <footer class="footer">
         <div class="footerlinks">

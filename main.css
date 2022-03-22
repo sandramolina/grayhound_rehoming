@@ -121,10 +121,18 @@ body {
   text-align: center;
   padding: 60px;
   font-size: 26px;
-  font-weight:bold;
+  font-weight: bold;
 }
 
 .quiz a {
   text-decoration: none;
   color: #4e3c3f;
+}
+
+@media (min-width: 1025px) {
+  /* big landscape tablets, laptops, and desktops */
+
+  body {
+    color: red !important;
+  }
 }
