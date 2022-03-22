@@ -4,6 +4,10 @@ body {
   font-family: "Montserrat", sans-serif !important;
 }
 
+.padding-bottom {
+  padding-bottom: 3vw;
+}
+
 .question {
   background-color: #51a3a3 !important;
   color: white;
