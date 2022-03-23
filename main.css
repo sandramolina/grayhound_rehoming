@@ -142,8 +142,8 @@ body {
     background-color: #51a3a3;
     height: 35vh;
   }
-  
-    .intro {
+
+  .intro {
     background-image: url("src/introPhotoresized.jpeg");
     background-size: cover;
     width: 100%;
@@ -152,7 +152,7 @@ body {
     background-position: top center;
     background-attachment: scroll;
   }
-  
+
   .intro-text {
     width: 900px;
     height: 200px;
