@@ -76,11 +76,12 @@ function getDoggie(arr) {
 function showDoggie(dog, pic) {
   let quizResult = document.querySelector(".match-result");
   const para = document.createElement("p");
+  para.className = "fs-4";
   para.textContent =
     "Congrats! Your woof-match is " +
     dog +
     "," +
-    " Contact us so you can meet each other!";
+    " please contact us so you can meet each other!";
   quizResult.appendChild(para);
 
   let dogImg = document.createElement("img");
