@@ -26,6 +26,7 @@ function answerInput(id) {
 // console.log(doggies[0].answerTag[2]); //false
 // console.log(doggies[2]);
 
+let yourDoggie;
 function getDoggie(arr) {
   let doggies = [
     {
@@ -56,9 +57,13 @@ function getDoggie(arr) {
 
   for (let i = 0; i < doggies.length; i++) {
     if (_.isEqual(arr, doggies[i].answerTag)) {
-      console.log(doggies[i].dog, i);
-    } else {
-      console.log("not match found");
+      // console.log(doggies[i].dog, i);
+      yourDoggie = doggies[i].dog;
+      showDoggie();
     }
   }
+}
+
+function showDoggie() {
+  console.log("Your doggie is " + yourDoggie);
 }
