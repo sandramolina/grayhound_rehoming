@@ -86,16 +86,16 @@ function showDoggie(dog, pic) {
 
   let dogImg = document.createElement("img");
   dogImg.src = pic;
-  // dogImg.setAttribute("height", "auto");
-  // dogImg.setAttribute("width", "100%");
-  dogImg.className = "img-fluid";
+  // dogImg.className = "img-fluid";
+  dogImg.classList.add("img-fluid", "rounded", "me-3", "d-block");
   quizResult.appendChild(dogImg);
-  // dogImg.classList.add(".rounded mx-auto d-block");
+  // dogImg.classList.add(".");
 }
 
 function noDoggieFound() {
   let quizResult = document.querySelector(".match-result");
   const para = document.createElement("p");
+  para.className = "fs-4";
   para.textContent =
     "Sorry, at the moment we don't have a doggie that matches your need, come by to say hi anyway!";
   quizResult.appendChild(para);
