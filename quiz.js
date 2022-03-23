@@ -12,7 +12,6 @@ function answerInput(id) {
     input = false;
   }
   answersList.push(input);
-  return answersList;
 }
 
 // this is the array that contains each of the dogs objects: children friendly, social dog, aged dog, female. Each boolean will tell if the dog meets these criteria
@@ -103,6 +102,12 @@ function noDoggieFound() {
   para.textContent =
     "Sorry, at the moment we don't have a doggie that matches your need, come by to say hi anyway!";
   quizResult.appendChild(para);
+
+  let reQuizBt = document.createElement("button");
+  reQuizBt.classList.add("btn", "btn-light", "fs-4", "bt-color");
+  reQuizBt.textContent = "Take the quiz one more time";
+  reQuizBt.addEventListener("click", refreshPage);
+  quizResult.appendChild(reQuizBt);
 }
 
 const refreshPage = () => {
