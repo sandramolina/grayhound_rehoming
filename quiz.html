@@ -40,10 +40,11 @@
           </button>
           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
-              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              <a class="nav-link active" aria-current="page" href="quiz.html"
+                >Dog Matchmaking Quiz</a
+              >
               <a class="nav-link" href="#">About Us</a>
               <a class="nav-link" href="#">Gallery</a>
-              <a class="nav-link" href="quiz.html">Dog Matchmaking Quiz</a>
               <a class="nav-link" href="#">Make a Donation</a>
             </div>
           </div>
@@ -51,181 +52,180 @@
       </nav>
     </div>
 
-  <div class="container">
-    <div class="row title-section">Find your perfect match</div>
+    <div class="container">
+      <div class="row title-section">Find your perfect match</div>
 
-    <div class="row padding-bottom">
-      <div class="col">
-        <div class="card text-center question">
-          <div>
-            <p>Do you live with small hoomans?</p>
-            <ul class="list-group list-group-flush">
+      <div class="row padding-bottom">
+        <div class="col">
+          <div class="card text-center question">
+            <div>
+              <p>Do you live with small hoomans?</p>
+              <form>
+                <div class="form-check">
+                  <input
+                    class="form-check-input radio-button"
+                    type="radio"
+                    value="true"
+                    name="flexRadioDefault"
+                    id="optionOne"
+                    onclick="answerInput('optionOne')"
+                  />
+                  <label class="form-check-label" for="optionOne">
+                    Yes, there're children under 16
+                  </label>
+                </div>
 
-              <div class="form-check">
-                <input
-                class="form-check-input radio-button"
-                type="radio"
-                value= true
-                name="flexRadioDefault"
-                id="optionOne"
-                onclick="answerInput('optionOne')"
-                >
-                <label class="form-check-label" for="optionOne">
-                  Yes, there're children under 16
-                </label>
-              </div>
-
-              <div class="form-check">
-                <input
-                class="form-check-input radio-button"
-                type="radio"
-                value= false
-                name="flexRadioDefault"
-                id="optionTwo"
-                onclick="answerInput('optionTwo')"
-                >
-                <label class="form-check-label" for="optionTwo">
-                  Nope, adult(s) only
-                </label>
-              </div>
+                <div class="form-check">
+                  <input
+                    class="form-check-input radio-button"
+                    type="radio"
+                    value="false"
+                    name="flexRadioDefault"
+                    id="optionTwo"
+                    onclick="answerInput('optionTwo')"
+                  />
+                  <label class="form-check-label" for="optionTwo">
+                    Nope, adult(s) only
+                  </label>
+                </div>
+              </form>
+            </div>
+            <div class="card-footer text-muted">Question 1 of 4</div>
           </div>
-          <div class="card-footer text-muted">Question 1 of 4</div>
         </div>
+      </div>
+
+      <div class="row padding-bottom">
+        <div class="col">
+          <div class="card text-center question">
+            <div>
+              <p>Are there any other doggos sharing your home?</p>
+              <form>
+                <div class="form-check">
+                  <input
+                    class="form-check-input radio-button"
+                    type="radio"
+                    value="true"
+                    name="flexRadioDefault"
+                    id="optionOne"
+                    onclick="answerInput('optionOne')"
+                  />
+                  <label class="form-check-label" for="optionOne">
+                    Yup, I already have a dog(s
+                  </label>
+                </div>
+
+                <div class="form-check">
+                  <input
+                    class="form-check-input radio-button"
+                    type="radio"
+                    value="false"
+                    name="flexRadioDefault"
+                    id="optionTwo"
+                    onclick="answerInput('optionTwo')"
+                  />
+                  <label class="form-check-label" for="optionTwo">
+                    Nope, this is my first fur baby
+                  </label>
+                </div>
+              </form>
+            </div>
+            <div class="card-footer text-muted">Question 2 of 4</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row padding-bottom hide-element">
+        <div class="col">
+          <div class="card text-center question">
+            <div>
+              <p>Are you open to adopting a greyhound over the age of 10?</p>
+              <form>
+                <div class="form-check">
+                  <input
+                    class="form-check-input radio-button"
+                    type="radio"
+                    value="true"
+                    name="flexRadioDefault"
+                    id="optionOne"
+                    onclick="answerInput('optionOne')"
+                  />
+                  <label class="form-check-label" for="optionOne">
+                    Sure, age is just a number!
+                  </label>
+                </div>
+
+                <div class="form-check">
+                  <input
+                    class="form-check-input radio-button"
+                    type="radio"
+                    value="false"
+                    name="flexRadioDefault"
+                    id="optionTwo"
+                    onclick="answerInput('optionTwo')"
+                  />
+                  <label class="form-check-label" for="optionTwo">
+                    I’d prefer a younger dog if possible.
+                  </label>
+                </div>
+              </form>
+            </div>
+            <div class="card-footer text-muted">Question 3 of 4</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row padding-bottom hide-elements">
+        <div class="col">
+          <div class="card text-center question">
+            <div>
+              <p>
+                Do you have a preference for the gender of your adopted dog?
+              </p>
+              <form>
+                <div class="form-check">
+                  <input
+                    class="form-check-input radio-button"
+                    type="radio"
+                    value="true"
+                    name="flexRadioDefault"
+                    id="optionOne"
+                    onclick="answerInput('optionOne')"
+                  />
+                  <label class="form-check-label" for="optionOne">
+                    Female
+                  </label>
+                </div>
+
+                <div class="form-check">
+                  <input
+                    class="form-check-input radio-button"
+                    type="radio"
+                    value="false"
+                    name="flexRadioDefault"
+                    id="optionTwo"
+                    onclick="answerInput('optionTwo')"
+                  />
+                  <label class="form-check-label" for="optionTwo"> Male </label>
+                </div>
+              </form>
+            </div>
+            <div class="card-footer text-muted">Question 4 of 4</div>
+          </div>
+        </div>
+      </div>
+      <div class="d-grid gap-3 col-6 mx-auto">
+        <button
+          type="button"
+          class="btn btn-light"
+          onclick="getDoggie(answersList)"
+        >
+          Take me to my doggie!
+        </button>
       </div>
     </div>
 
-    <div class="row padding-bottom hide-element">
-      <div class="col">
-        <div class="card text-center question">
-          <div>
-            <p>Are there any other doggos sharing your home? </p>
-            <ul class="list-group list-group-flush">
-
-              <div class="form-check">
-                <input
-                class="form-check-input radio-button"
-                type="radio"
-                value= true
-                name="flexRadioDefault"
-                id="optionOne"
-                onclick="answerInput('optionOne')"
-                >
-                <label class="form-check-label" for="optionOne">
-                  Yup, I already have a dog(s
-                </label>
-              </div>
-
-              <div class="form-check">
-                <input
-                class="form-check-input radio-button"
-                type="radio"
-                value= false
-                name="flexRadioDefault"
-                id="optionTwo"
-                onclick="answerInput('optionTwo')"
-                >
-                <label class="form-check-label" for="optionTwo">
-                  Nope, this is my first fur baby
-                </label>
-              </div>
-          </div>
-          <div class="card-footer text-muted">Question 2 of 4</div>
-        </div>
-      </div>
-    </div>
-
-    <div class="row padding-bottom hide-element">
-      <div class="col">
-        <div class="card text-center question">
-          <div>
-            <p>Are you open to adopting a greyhound over the age of 10?</p>
-            <ul class="list-group list-group-flush">
-
-              <div class="form-check">
-                <input
-                class="form-check-input radio-button"
-                type="radio"
-                value= true
-                name="flexRadioDefault"
-                id="optionOne"
-                onclick="answerInput('optionOne')"
-                >
-                <label class="form-check-label" for="optionOne">
-                  Sure, age is just a number!
-                </label>
-              </div>
-
-              <div class="form-check">
-                <input
-                class="form-check-input radio-button"
-                type="radio"
-                value= false
-                name="flexRadioDefault"
-                id="optionTwo"
-                onclick="answerInput('optionTwo')"
-                >
-                <label class="form-check-label" for="optionTwo">
-                  I’d prefer a younger dog if possible.
-                </label>
-              </div>
-          </div>
-          <div class="card-footer text-muted">Question 3 of 4</div>
-        </div>
-      </div>
-    </div>
-
-    <div class="row padding-bottom hide-elements">
-      <div class="col">
-        <div class="card text-center question">
-          <div>
-            <p>Do you have a preference for the gender of your adopted dog?</p>
-            <ul class="list-group list-group-flush">
-
-              <div class="form-check">
-                <input
-                class="form-check-input radio-button"
-                type="radio"
-                value= true
-                name="flexRadioDefault"
-                id="optionOne"
-                onclick="answerInput('optionOne')"
-                >
-                <label class="form-check-label" for="optionOne">
-                  Female
-                </label>
-              </div>
-
-              <div class="form-check">
-                <input
-                class="form-check-input radio-button"
-                type="radio"
-                value= false
-                name="flexRadioDefault"
-                id="optionTwo"
-                onclick="answerInput('optionTwo')"
-                >
-                <label class="form-check-label" for="optionTwo">
-                  Male
-                </label>
-              </div>
-          </div>
-          <div class="card-footer text-muted">Question 4 of 4</div>
-        </div>
-      </div>
-    </div>
-    <div class="d-grid gap-3 col-6 mx-auto">
-      <button
-      type="button"
-      class="btn btn-light"
-      onclick="getDoggie(answersList)"
-      >
-      Take me to my doggie!
-    </button>
-    </div>
-
-  </div>
-
-  <div class="match-result text-center"></div>
+    <div class="match-result text-center"></div>
 
     <div class="row">
       <footer class="footer">
@@ -234,7 +234,7 @@
           <a>Social Media</a>
           <a>FAQs</a>
         </div>
-  
+
         <div class="charityReg">
           <p>Greyhound Rehoming Centre Registered Charity number XXXX</p>
         </div>
@@ -252,6 +252,5 @@
       integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
       crossorigin="anonymous"
     ></script>
-    
   </body>
 </html>
