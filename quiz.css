@@ -12,6 +12,10 @@ body {
   padding-bottom: 3vw;
 }
 
+.mg-bt {
+  margin-bottom: 4vw;
+}
+
 .question {
   background-color: #51a3a3 !important;
   color: white;
