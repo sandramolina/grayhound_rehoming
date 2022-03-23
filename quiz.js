@@ -15,14 +15,7 @@ function answerInput(id) {
   return answersList;
 }
 
-// console.log("test");
-//
-
-// example of answerList to try the if statement
-// answersList = [true, true, false, true];
-
 // this is the array that contains each of the dogs objects: children friendly, social dog, aged dog, female. Each boolean will tell if the dog meets these criteria
-
 // console.log(doggies[0].answerTag[2]); //false
 // console.log(doggies[2]);
 
@@ -64,31 +57,39 @@ function getDoggie(arr) {
 
   for (let i = 0; i < doggies.length; i++) {
     if (_.isEqual(arr, doggies[i].answerTag)) {
-      console.log(doggies[i].dog, i);
+      // console.log(doggies[i].dog, i);
       yourDoggie = doggies[i].dog;
       yourDoggiePic = doggies[i].imgSource;
-      showDoggie();
+      break;
     } else {
-      noDoggieFound();
+      yourDoggie = undefined;
     }
+  }
+
+  if (yourDoggie == undefined) {
+    noDoggieFound();
+  } else {
+    showDoggie(yourDoggie, yourDoggiePic);
   }
 }
 
-function showDoggie() {
+function showDoggie(dog, pic) {
   let quizResult = document.querySelector(".match-result");
   const para = document.createElement("p");
   para.textContent =
-    "Congrats! Your doggie is " +
-    yourDoggie +
+    "Congrats! Your woof-match is " +
+    dog +
     "," +
     " Contact us so you can meet each other!";
   quizResult.appendChild(para);
 
   let dogImg = document.createElement("img");
-  dogImg.src = yourDoggiePic;
-  dogImg.setAttribute("height", "auto");
-  dogImg.setAttribute("width", "100%");
+  dogImg.src = pic;
+  // dogImg.setAttribute("height", "auto");
+  // dogImg.setAttribute("width", "100%");
+  dogImg.className = "img-fluid";
   quizResult.appendChild(dogImg);
+  // dogImg.classList.add(".rounded mx-auto d-block");
 }
 
 function noDoggieFound() {
