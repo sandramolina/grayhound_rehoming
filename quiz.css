@@ -22,6 +22,11 @@ body {
   float: none !important;
 }
 
+.element-centered {
+  display: flex;
+  flex-direction: column;
+}
+
 @media (min-width: 1025px) {
   .question {
     background-color: #51a3a3 !important;
