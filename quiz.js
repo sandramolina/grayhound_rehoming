@@ -86,10 +86,14 @@ function showDoggie(dog, pic) {
 
   let dogImg = document.createElement("img");
   dogImg.src = pic;
-  // dogImg.className = "img-fluid";
   dogImg.classList.add("img-fluid", "rounded", "me-3", "d-block");
   quizResult.appendChild(dogImg);
-  // dogImg.classList.add(".");
+
+  let reQuizBt = document.createElement("button");
+  reQuizBt.classList.add("btn", "btn-light", "fs-4", "bt-color");
+  reQuizBt.textContent = "Take the quiz one more time";
+  reQuizBt.addEventListener("click", refreshPage);
+  quizResult.appendChild(reQuizBt);
 }
 
 function noDoggieFound() {
@@ -100,3 +104,7 @@ function noDoggieFound() {
     "Sorry, at the moment we don't have a doggie that matches your need, come by to say hi anyway!";
   quizResult.appendChild(para);
 }
+
+const refreshPage = () => {
+  location.reload();
+};
