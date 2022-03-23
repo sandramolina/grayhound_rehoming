@@ -88,11 +88,12 @@ function showDoggie(dog, pic) {
   dogImg.classList.add("img-fluid", "rounded", "me-3", "d-block");
   quizResult.appendChild(dogImg);
 
+  let = divReQuizBt = document.querySelector(".qbn");
   let reQuizBt = document.createElement("button");
   reQuizBt.classList.add("btn", "btn-light", "fs-4", "bt-color");
   reQuizBt.textContent = "Take the quiz one more time";
   reQuizBt.addEventListener("click", refreshPage);
-  quizResult.appendChild(reQuizBt);
+  divReQuizBt.appendChild(reQuizBt);
 }
 
 function noDoggieFound() {
@@ -103,11 +104,12 @@ function noDoggieFound() {
     "Sorry, at the moment we don't have a doggie that matches your need, come by to say hi anyway!";
   quizResult.appendChild(para);
 
+  let = divReQuizBt = document.querySelector(".qbn");
   let reQuizBt = document.createElement("button");
   reQuizBt.classList.add("btn", "btn-light", "fs-4", "bt-color");
   reQuizBt.textContent = "Take the quiz one more time";
   reQuizBt.addEventListener("click", refreshPage);
-  quizResult.appendChild(reQuizBt);
+  divReQuizBt.appendChild(reQuizBt);
 }
 
 const refreshPage = () => {
