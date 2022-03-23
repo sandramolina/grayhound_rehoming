@@ -27,43 +27,74 @@ function answerInput(id) {
 // console.log(doggies[2]);
 
 let yourDoggie;
+let yourDoggiePic;
 function getDoggie(arr) {
   let doggies = [
     {
       dog: "Delilah",
       answerTag: [true, true, false, true],
+      imgSource: "src/Delilah.jpg",
     },
     {
       dog: "Alfie",
       answerTag: [true, false, true, false],
+      imgSource: "src/Alfie.jpg",
     },
     {
       dog: "Lola",
-      answerTag: [true, true, false, true],
+      answerTag: [true, true, true, true],
+      imgSource: "src/Lola.jpg",
     },
     {
       dog: "Sky",
       answerTag: [false, true, false, false],
+      imgSource: "src/Sky.jpg",
     },
     {
       dog: "Hammy",
       answerTag: [true, false, true, true],
+      imgSource: "src/Hammy.jpg",
     },
     {
       dog: "Flash",
       answerTag: [true, true, false, false],
+      imgSource: "src/Flash.jpg",
     },
   ];
 
   for (let i = 0; i < doggies.length; i++) {
     if (_.isEqual(arr, doggies[i].answerTag)) {
-      // console.log(doggies[i].dog, i);
+      console.log(doggies[i].dog, i);
       yourDoggie = doggies[i].dog;
+      yourDoggiePic = doggies[i].imgSource;
       showDoggie();
+    } else {
+      noDoggieFound();
     }
   }
 }
 
 function showDoggie() {
-  console.log("Your doggie is " + yourDoggie);
+  let quizResult = document.querySelector(".match-result");
+  const para = document.createElement("p");
+  para.textContent =
+    "Congrats! Your doggie is " +
+    yourDoggie +
+    "," +
+    " Contact us so you can meet each other!";
+  quizResult.appendChild(para);
+
+  let dogImg = document.createElement("img");
+  dogImg.src = yourDoggiePic;
+  dogImg.setAttribute("height", "auto");
+  dogImg.setAttribute("width", "100%");
+  quizResult.appendChild(dogImg);
+}
+
+function noDoggieFound() {
+  let quizResult = document.querySelector(".match-result");
+  const para = document.createElement("p");
+  para.textContent =
+    "Sorry, at the moment we don't have a doggie that matches your need, come by to say hi anyway!";
+  quizResult.appendChild(para);
 }
