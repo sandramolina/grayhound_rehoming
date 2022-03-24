@@ -47,10 +47,6 @@ body {
   padding-bottom: 20px;
 }
 
-.response {
-  font-size: 1.6vw;
-}
-
 @media (min-width: 1025px) {
   .question {
     background-color: #51a3a3 !important;
@@ -59,5 +55,9 @@ body {
     width: 900px;
     margin: auto;
     padding: 10px;
+  }
+
+  .response {
+    font-size: 1.6vw;
   }
 }
