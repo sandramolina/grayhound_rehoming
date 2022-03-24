@@ -4,9 +4,11 @@ body {
   font-family: "Montserrat", sans-serif !important;
 }
 
-/* .hide-element {
-  display: none;
-} */
+.bt-color {
+  background-color: #fcb0b3 !important;
+  /* border-color: aliceblue !important; */
+  color: #51a3a3 !important;
+}
 
 .card-footer {
   font-size: 20px;
