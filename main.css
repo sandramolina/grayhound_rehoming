@@ -167,6 +167,18 @@ body {
     margin-top: 5px;
     font-weight: bold;
   }
+  
+    .quiz {
+    background-image: url("src/quiz_background_desktop.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    text-align: center;
+    padding-top: 180px;
+    font-size: 26px;
+    font-weight: bold;
+    height: 400px;
+  }
 
   .title-section {
     display: flex;
