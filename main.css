@@ -18,6 +18,18 @@ body {
   font-weight: bold;
 }
 
+.donate-button {
+  height: 45px;
+  width: auto;
+}
+
+.navbar-nav {
+  align-items: center;
+}
+.navbar-brand {
+  align-items: center;
+}
+
 .footer {
   background-color: #fcb0b3;
   overflow: hidden;
@@ -176,8 +188,8 @@ body {
     margin-top: 5px;
     font-weight: bold;
   }
-  
-    .logo-section {
+
+  .logo-section {
     max-width: 200px;
     max-height: 200px;
     padding-top: 5px;
