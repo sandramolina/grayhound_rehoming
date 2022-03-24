@@ -133,10 +133,10 @@ body {
     color: #54494b;
     font-size: 2vw;
   }
-  .card-body {
+  /* .card-body {
     background-color: #51a3a3;
     height: 55vh;
-  }
+  } */
 
   .intro {
     background-image: url("src/introPhotoresized.jpeg");
