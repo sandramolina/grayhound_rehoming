@@ -16,9 +16,8 @@ body {
   padding-bottom: 3vw;
 }
 
-.title-section {
-  padding-bottom: 35px;
-  padding-top: 25px;
+.title-quiz {
+  text-align: center;
 }
 
 .mg-bt {
