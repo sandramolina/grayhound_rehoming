@@ -103,7 +103,7 @@ function showDoggie(dog, pic) {
 
   let dogImg = document.createElement("img");
   dogImg.src = pic;
-  dogImg.classList.add("img-fluid", "rounded", "me-3", "d-block");
+  dogImg.classList.add("img-fluid", "rounded", "me-3");
   quizResult.appendChild(dogImg);
 
   let = divReQuizBt = document.querySelector(".qbn");
