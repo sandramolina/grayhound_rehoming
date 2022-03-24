@@ -1,5 +1,5 @@
 body {
-  color: #54494b;
+  color: #54494b !important;
   font-family: "Montserrat", sans-serif !important;
 }
 
@@ -18,10 +18,6 @@ body {
   font-weight: bold;
 }
 
-.charityReg {
-  text-align: center;
-}
-
 .footer {
   background-color: #fcb0b3;
   overflow: hidden;
@@ -30,7 +26,6 @@ body {
 .footerlinks {
   align-items: flex;
   text-align: center;
-  padding: 14px 16px;
 }
 
 .footerlinks a {
