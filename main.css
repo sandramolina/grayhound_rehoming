@@ -107,7 +107,7 @@ body {
   font-size: 7.5vw !important;
   padding-top: 15px;
   padding-bottom: 15px;
-  color: #54494b;
+  color: #54494b !important;
 }
 
 .quiz {
@@ -187,6 +187,6 @@ body {
     font-size: 3.5vw !important;
     padding-top: 15px;
     padding-bottom: 15px;
-    color: #54494b;
+    color: #54494b !important;
   }
 }
