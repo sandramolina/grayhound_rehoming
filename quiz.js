@@ -108,7 +108,7 @@ function showDoggie(dog, pic) {
 
   let = divReQuizBt = document.querySelector(".qbn");
   let reQuizBt = document.createElement("button");
-  reQuizBt.classList.add("btn", "btn-light", "fs-4", "bt-color");
+  reQuizBt.classList.add("btn", "btn-secondary", "fs-4", "bt-color");
   reQuizBt.textContent = "Take the quiz one more time";
   reQuizBt.addEventListener("click", refreshPage);
   divReQuizBt.appendChild(reQuizBt);
@@ -124,7 +124,7 @@ function noDoggieFound() {
 
   let = divReQuizBt = document.querySelector(".qbn");
   let reQuizBt = document.createElement("button");
-  reQuizBt.classList.add("btn", "btn-light", "fs-4", "bt-color");
+  reQuizBt.classList.add("btn", "fs-4", "bt-color", "btn-secondary");
   reQuizBt.textContent = "Take the quiz one more time";
   reQuizBt.addEventListener("click", refreshPage);
   divReQuizBt.appendChild(reQuizBt);
