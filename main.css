@@ -85,8 +85,9 @@ body {
   padding: 10px;
 }
 
-.navbar-light {
+.navbar-c {
   background-color: #fcb0b3;
+  color: #54494b !important;
 }
 
 .stories-gallery {
