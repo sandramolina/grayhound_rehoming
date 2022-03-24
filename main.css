@@ -55,6 +55,13 @@ body {
   padding-bottom: 5px;
   padding-left: 10px;
   padding-right: 10px;
+  width: 100vw !important;
+}
+
+.gallery-container {
+  background-color: #f3dfa2;
+  display: flex;
+  justify-content: center;
 }
 
 .greyhoundlogo {
@@ -215,5 +222,9 @@ body {
     padding-top: 15px;
     padding-bottom: 15px;
     color: #54494b !important;
+  }
+
+  .gallery {
+    width: 80vw !important;
   }
 }
