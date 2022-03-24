@@ -11,7 +11,25 @@ function answerInput(id) {
   } else if (input == "false") {
     input = false;
   }
-  answersList.push(input);
+
+  switch (id) {
+    case "optionOne":
+      answersList[0] = input;
+    case "optionTwo":
+      answersList[0] = input;
+    case "optionOne2":
+      answersList[1] = input;
+    case "optionTwo2":
+      answersList[1] = input;
+    case "optionOne3":
+      answersList[2] = input;
+    case "optionTwo3":
+      answersList[2] = input;
+    case "optionOne4":
+      answersList[3] = input;
+    case "optionTwo4":
+      answersList[3] = input;
+  }
 }
 
 // this is the array that contains each of the dogs objects: children friendly, social dog, aged dog, female. Each boolean will tell if the dog meets these criteria
@@ -101,7 +119,7 @@ function noDoggieFound() {
   const para = document.createElement("p");
   para.className = "fs-4";
   para.textContent =
-    "Sorry, at the moment we don't have a doggie that matches your need, come by to say hi anyway!";
+    "Sorry, at the moment we don't have a woof-match for you, come by to say hi anyway!";
   quizResult.appendChild(para);
 
   let = divReQuizBt = document.querySelector(".qbn");
