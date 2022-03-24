@@ -45,6 +45,11 @@ body {
   padding-right: 10px;
 }
 
+.greyhoundlogo {
+  max-width: 100%;
+  max-height: 100%;
+}
+
 .image-container {
   display: flex;
   justify-content: center;
@@ -74,6 +79,14 @@ body {
   margin-left: 10px;
   margin-top: 5px;
   font-weight: bold;
+}
+
+.logo-section {
+  max-width: 150px;
+  max-height: 150px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .map {
