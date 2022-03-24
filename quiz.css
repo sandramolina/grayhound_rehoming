@@ -24,11 +24,21 @@ body {
 
 .radio-button {
   float: none !important;
+  transform: scale(0.5);
 }
 
 .element-centered {
   display: flex;
   flex-direction: column;
+}
+
+.quiz-form {
+  text-align: left;
+  margin-left: 10%;
+}
+
+.response {
+  font-size: 2vw;
 }
 
 @media (min-width: 1025px) {
